@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  html,body {
+    width : 100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+  .maincontainer{
+    display: flex;
+    flex-direction: column;
+  }
+  body{
+    background-color: black;
+  }
+  .whitecontainer{
+    padding:10% 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+  }
+  .container1{
+    width:100%;
+    margin:0;
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    border: 1px solid black;
+  }
+  .blackcontainer{
+    padding: 35px 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+  .inputcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .inputcontainer input{
+    background-color: transparent;
+    border: 1px solid rgb(167, 163, 163);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+  }
+  input:focus{
+    outline: none;
+  }
+  .inputcontainer button{
+    padding: 10px 20px;
+    align-self: flex-start;
+    border: none;
+    border-radius: 0.2rem;
+    font-size: 16px;
+    font-weight:400;
+  }
+  .result{
+    padding: 10px;
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid gray;
+    margin-top:20px ;
+  }
+  .lonspan{
+    display: flex;
+    gap:10%;
+  }
+  .resultcontainer{
+    display: none;
+  }
+  .error{
+    display: none;
+    color: red;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
